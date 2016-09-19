@@ -1,0 +1,71 @@
+.page-content {
+	background-color: #f5f8fa
+}
+.contenedor {
+	width:590px;
+	max-width:90%;
+	margin: 0 auto;
+} 
+.demo-card-header-pic .card-header {
+	font: 30px entyporegular;
+/*	height: 40vw;*/
+	min-height: 250px;
+	background-size: cover;
+	background-position: center;
+	text-shadow: 1px 1px 1px #383838;
+}
+.centrado {
+	text-align: center;
+}
+.chip-media {
+	text-shadow: 1px 1px 2px blue;
+}
+.lasnotas {
+	color: #383838;
+}
+.autor {
+	font-size: 12px;
+}
+.localizacion {
+	font: 50px entyporegular;
+	text-align: right;
+	cursor: pointer;
+	margin-top: -5px;
+}
+.borrar {
+	font: 40px entyporegular;
+	text-align: right;
+	cursor: pointer;
+	opacity: 0;
+}
+.borrar:hover {
+	opacity: 1;
+}
+.pdere {
+	padding-right: 5px;
+}
+.card {
+	box-shadow: none;
+	margin-bottom: 50px;
+	border: 1px solid #e1e8ed;
+	border-radius: 4px;
+	word-wrap: break-word;
+}
+.infinite-scroll-preloader {
+	margin-top:-20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.infinite-scroll-preloader .preloader {
+	width:34px;
+	height:34px;
+}
+.nomas {
+	font: 85px entyporegular;
+	margin-top: -25px;
+	text-align: center;
+}
+.elmapa {
+	min-height: 250px;
+	margin-top: 15px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "olor-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.5.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.11",
+    "multer": "^1.1.0",
+    "nodemailer": "^2.5.0",
+    "shortid": "^2.2.6",
+    "socket.io": "^1.4.8",
+    "validator": "^5.2.0"
+  }
+}

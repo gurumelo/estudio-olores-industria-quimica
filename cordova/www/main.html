@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<link rel="stylesheet" href="css/framework7.material.min.css">
+		<link rel="stylesheet" href="css/framework7.material.colors.min.css">
+		<link rel="stylesheet" href="css/my-app.css">
+        <title>Olor</title>
+    </head>
+    <body>
+		
+	<div class="panel-overlay"></div>
+	<div class="panel panel-left panel-reveal">
+
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="left"><a href="#" class="back link icon-only close-panel"><i class="icon icon-back"></i></a></div>
+				<div class="center" id="titulo">Menú</div>
+			</div>
+		</div>
+    
+		<div class="nolinea list-block">
+			<ul>
+				<li>
+					<a href="#" class="reinicio item-link item-content">
+						<div class="item-inner">
+							<div class="item-title">Reiniciar</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="salir item-link item-content">
+						<div class="item-inner">
+							<div class="item-title">Salir</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+
+	</div>
+    
+
+	<div class="views">
+		
+		<div class="view view-main">
+
+			<div class="pages">
+
+				<div data-page="home" class="page navbar-fixed toolbar-fixed">
+					
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="left"><a id="salida" href="#" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+							<div class="center" id="titulo"></div>
+							<div class="right"><a href="#" class="link open-panel icon-only"><i class="icon icon-bars"></i></a></div>
+						</div>
+					</div>
+
+					<div class="toolbar messagebar messagebar-init" data-max-height="125" id="barmensaje" style="visibility: hidden;">
+						<div class="toolbar-inner">
+							<textarea placeholder="" id="areamensaje"></textarea><a href="#" class="link" id="botonmensaje">Enviar</a>
+						</div>
+					</div>
+					
+					<div class="page-content messages-content">
+
+						<div class="messages messages-init" data-auto-layout="true" data-new-messages-first="false">
+							
+							<img id="mapa" src="">
+							
+							<div class="messages-date"></div>
+							
+							<!-- aquí van apareciendo los mensajes -->
+							
+						</div>
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+	
+	</div>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/framework7.min.js"></script>
+	<script type="text/javascript" src="js/my-app.js"></script>
+        
+    </body>
+</html>
