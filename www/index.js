@@ -10,7 +10,6 @@ var io 			= require('socket.io')(server);
 
 var mongo		= require('./model/mongo');
 var shortid		= require('shortid');
-//var ObjectId		= require('mongoose').Types.ObjectId;
 
 var multer		= require('multer');
 var storage		= multer.diskStorage({
