@@ -1,8 +1,8 @@
-var confi		= require("./confi.json");
+var confi		= require('./confi.json');
 var fs			= require('fs');
-var express		= require("express");
-var bodyParser		= require("body-parser");
-var valida		= require("validator");
+var express		= require('express');
+var bodyParser		= require('body-parser');
+var valida		= require('validator');
 var app			= express();
 
 var server 		= require('http').Server(app);
